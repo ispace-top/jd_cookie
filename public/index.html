@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>薅羊毛脚本登录工具</title>
+    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="https://www.jd.com/favicon.ico" />
+</head>
+
+<body>
+    <div class="title">
+        <div class="title_icon">
+            ⚠
+        </div>
+        <div class="title_info">
+            本服务为亲友专用，外人请勿使用<br>否则容易造成您个人账号信息泄露
+        </div>
+    </div>
+
+    <div class="exp-container">
+        <div class="exp">
+            <input type="text" class="exp__input" id="example" name="test" placeholder="可输入备注信息，以便管理员识别" required>
+            <label class="exp__label" for="example" data-icon=""></label>
+        </div>
+        <div class="exp_btns">
+            <button class="btn" id="jdcode">口令登录</button><br><br>
+            <button class="btn" id="qrcode">扫码登录</button><br><br>
+            <button class="btn" id="jumpapp">直接登录</button><br><br>
+        </div>
+    </div>
+
+    <div id="qr" class="qr">
+        <div class="qrcontainer">
+            <div id="qrbox"></div>
+            <div id="tip">
+                <h3>二维码已失效</h3>
+            </div>
+            <div id="des" class="des">请无视升级提示</div>
+        </div>
+    </div>
+    <div id="res" class="qr">
+        <div class="qrcontainer">
+            <div id="cookie" class="des"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<footer>
+
+    <body>
+        <div class="footer" type="text/css">
+            <p>
+                内部资料，禁止搬运
+            </p>
+        </div>
+    </body>
+</footer>
+
+</html>
